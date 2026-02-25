@@ -1,0 +1,5 @@
+echo "Eneter file name"
+read file
+echo "enter string"
+read str
+grep -n "$str" "$file"

@@ -1,0 +1,3 @@
+echo "enter extension:"
+read ext
+find . -type f -name "*.$ext"

@@ -1,0 +1,4 @@
+echo "enter message to log"
+read msg
+echo "$(date) : $msg" >> log.txt
+echo "Message logged successfully"

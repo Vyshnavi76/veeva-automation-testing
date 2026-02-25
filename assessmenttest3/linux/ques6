@@ -1,0 +1,5 @@
+echo "Enetr html file "
+read file
+echo "Enter tag name"
+read tag
+grep -oP "(?<=<$tag>).*?(?=</$tag>)" "$file"

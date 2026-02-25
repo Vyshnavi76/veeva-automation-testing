@@ -1,0 +1,2 @@
+echo "Files larger that lkb:"
+find . -type f -size +1k

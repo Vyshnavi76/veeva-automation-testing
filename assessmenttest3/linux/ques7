@@ -1,0 +1,2 @@
+echo "file modifed in last 3 days:"
+find . -type f -mtime -3
