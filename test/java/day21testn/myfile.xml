@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="mysuite">
+
+<test name="mytests">
+
+<classes>
+<class name="day21testn.Orangehrmtest"/>
+<class name="day21testn.Firsttestcase"/>
+</classes>
+</test>
+
+
+
+
+</suite>
