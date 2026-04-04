@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="groupingsuite">
+<test name="groupingtest">
+<groups>
+<run>
+<!--  <include name="sanity"/>//only sanity
+<include name="regression"/>-->
+<include name="fun"/>
+<!--><exclude name="regression"/>-->
+
+
+</run>
+
+</groups>
+
+
+<classes>
+    <class name="day23Dependency.LoginTests"/>
+    <class name="day23Dependency.SignUptest"/>
+    <class name="day23Dependency.Paymentstest"/>
+</classes>
+</test>
+</suite>

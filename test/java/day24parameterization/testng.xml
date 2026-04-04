@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter anme="browser" value="edge"/>
+    <classes>
+     
+      <class name="day24parameterization.Paratest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
